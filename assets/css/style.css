@@ -175,15 +175,14 @@ nav a {
   display: block;
   padding: var(--space-xs) var(--space-sm);
   background: var(--bg-alt);
-  border: 1px solid var(--border);
+  border: 2px solid var(--primary);
   border-radius: 4px;
   font-weight: 500;
   transition: all 0.2s;
 }
 
 nav a:hover {
-  background: var(--primary);
-  color: white;
+  color: var(--primary);
   border-color: var(--primary);
 }
 
@@ -328,8 +327,11 @@ h2[id], h3[id] {
   font-weight: 600;
   font-size: 1rem;
   color: var(--text);
-  border: none;
+  border: 2px solid var(--primary);
+  border-radius: 4px;
+  padding: var(--space-xs) var(--space-sm);
   display: block;
+  transition: all 0.2s;
 }
 
 .nav-home-link:hover {
