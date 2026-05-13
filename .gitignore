@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Editor directories
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
+
+# Temporary files
+*.tmp
+*~
